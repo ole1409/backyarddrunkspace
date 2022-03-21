@@ -11,7 +11,7 @@ nav {
 }
 
 #nav {
-    background-color: rgb(165, 165, 165);
+    background-color: #a5a5a5;
     margin: 5px;
     padding: 10px;
     border-radius: 7px;
@@ -21,4 +21,21 @@ nav {
 
 #mail {
 text-align: center;
+}
+
+#star {
+    background-color: lightgrey;
+    max-width: 330px;
+    border-radius: 7px;
+    padding: 10px;
+    
+}
+
+svg {
+    height: 60px;
+}
+
+#img {
+    height: 240px;
+
 }
