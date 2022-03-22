@@ -1,0 +1,136 @@
+.unterpunkte {
+    width: 300px;
+    height: 50px;
+    text-align: left;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: white;
+    border: 0ch;
+    border-top: 0.5px solid black;
+}
+
+.firststep {
+    width: 350px;
+    height: 150px;
+    text-align: left;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: absolute;
+    border: 0ch;
+    border-top: 0.5px solid black;
+    margin-left: 530px;
+    margin-top: 200px;
+}
+
+.option {
+    visibility: hidden;
+}
+
+.invis {
+    display: none;
+}
+
+.produkte {
+    border-color: 1px solid black;
+    width: 470px;
+    height: 100px;
+    text-align: center;
+    color: black;
+    padding: 30px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+    line-height: 10px;
+    background-color: white;
+    max-width: 400px;
+    background: linear-gradient(rgb(255, 255, 255), rgb(173, 173, 173));
+}
+
+.wrapper {
+    display: flex;
+
+}
+
+.ausverkauft {
+    opacity: 0.3;
+    color: rgb(0, 0, 0);
+    pointer-events: none;
+}
+
+.auswahl {
+    border-color: 1px solid black;
+    width: 470px;
+    height: 100px;
+    text-align: center;
+    color: black;
+    padding: 30px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+    line-height: 10px;
+    background-color: #ffd97086;
+
+}
+
+#textfeld {
+    width: 200px;
+    height: 200px;
+}
+
+.unsichtbar {
+    display: none !important;
+}
+
+/* .ad {} */
+
+.warenkorb-liste {
+    background-color: rgb(235, 235, 235);
+    opacity: 0.7;
+
+}
+
+/* .warenkorb-liste li {}
+
+#produktListe span {} */
+
+#produktListe {
+    width: 13%;
+    position: absolute;
+    right: 0;
+    top: 5px;
+    background-color: rgb(235, 235, 235);
+    opacity: 0.7;
+}
+
+.bold {
+    font-weight: bold !important;
+}
+
+.kursiv {
+    font-style: italic !important;
+}
+
+#img {
+    margin-left: 120px;
+}
+
+body {
+    background:rgb(173, 173, 173);
+
+}
