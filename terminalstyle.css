@@ -1,5 +1,5 @@
 .unterpunkte {
-    width: 300px;
+    width: 250px;
     height: 50px;
     text-align: left;
     color: black;
@@ -111,7 +111,7 @@
 #produktListe span {} */
 
 #produktListe {
-    width: 13%;
+    width: 45%;
     position: absolute;
     right: 0;
     top: 5px;
@@ -219,3 +219,47 @@ body {
 button {
     border-radius: 5px;
 }
+
+/* #liste {
+    width: 15%;
+    position: absolute;
+    right:180px;
+    background-color: grey;
+    margin-left: 20px;
+    position:fixed;
+    z-index:999;
+    top: 21px;
+} */
+
+.unterpunktered {
+    width: 250px;
+    height: 50px;
+    text-align: left;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: rgb(220, 47, 47);
+    border: 0ch;
+    border-top: 0.5px solid black;
+}
+
+.unterpunktegreen {
+    width: 250px;
+    height: 50px;
+    text-align: left;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: rgb(115, 255, 0);
+    border: 0ch;
+    border-top: 0.5px solid black;
+}
+

@@ -17,46 +17,49 @@
     <button class="auswahlBtn auswahl">zum Mitnehmen</button> -->
 
 
+    <!-- <span id="alc">enthält Alc</span> -->
 
 
     <div>
         <div id="start">
-            <a href="mgrmenuterminal.html"><button id="test">MGR Menü</button></a>
+            <a href="mgrmenuterminal.html"><button id="test" class="unterpunkte">MGR Menü</button></a>
 
-            <button id="bezahlen">Bezahlen</button>
+            <button id="bezahlen" class="unterpunkte">Bezahlen</button>
 
-            <button class="ad">A/D</button>
+            <button class="ad unterpunkte">A/D</button>
+
+
+
+            <button id="aktivieren" class="unsichtbar unterpunktegreen">aktivieren</button>
+            <button id="deaktivieren" class="unsichtbar unterpunktered">deaktivieren</button>
+
+            <br>
+
+            <a href="#seite1"><button class="unterpunkte">Seite 1</button></a>
+            <a href="#seite2"><button class="unterpunkte">Seite 2</button></a>
+            <a href="#seite3"><button class="unterpunkte">Seite 3</button></a>
 
             <select class="unsichtbar" id="select1">
                 <option value="ProduktName">-</option>
                 <option value="*">Alle</option>
             </select>
 
-            <button id="aktivieren" class="unsichtbar">aktivieren</button>
-            <button id="deaktivieren" class="unsichtbar">deaktivieren</button>
-
             <div id="produktListe"></div>
 
+
+
+
             <br>
-            <a href="#seite1"><button class="unterpunkte">Seite 1</button></a>
-            <a href="#seite2"><button class="unterpunkte">Seite 2</button></a>
-            <a href="#mcmenü"><button class="unterpunkte">McMenü</button></a>
-            <a href="#burger"><button class="unterpunkte">Burger</button></a>
-            <a href="#mcnff"><button class="unterpunkte">McNuggets & Fingerfood</button></a>
-            <a href="#vs"><button class="unterpunkte">Vegan, Salads & Co.</button></a>
-            <a href="#happymeal"><button class="unterpunkte">Happy Meal</button></a>
-            <a href="#be"><button class="unterpunkte">Beilagen & Extras</button></a>
-            <a href="#getränke"><button class="unterpunkte">Getränke</button></a>
-            <a href="#desserts"><button class="unterpunkte">Desserts</button></a>
-            <a href="#mccafe"><button class="unterpunkte">McCafe</button></a>
-            <a href="#"><button class="unterpunkte">Hilfe?</button></a>
+
         </div>
 
+        <section>
+            <br><br><br>
+            <a id="seite1" href="#seite1"><button class="unterpunkte">Seite 1</button></a>
+            <a href="#seite2"><button class="unterpunkte">Seite 2</button></a>
+            <a href="#seite3"><button class="unterpunkte">Seite 3</button></a>
+            <a href="#start"><button class="unterpunkte">Zum Bezahlen</button></a>
 
-        <section id="seite1">
-            <br>
-            <hr><br><br>Seite 1<br><br>
-            <hr><br>
             <div class="wrapper">
                 <button class="produkte pr1">
                     <span>DURSTLÖSCHERMINZE-HOLUNDERBLÜTE0,5L<br><br></span><strong>5,50€</strong></button>
@@ -146,7 +149,8 @@
                 <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
                 <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
                 <button class="produkte"><span>ProduktName1<br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName1<br><br></span><strong>Preis€</strong></button>
+                <a href="#seite1"><button class="produkte2">
+                        Seite 1<br></button></a>
             </div>
 
             <div class="wrapper">
@@ -157,376 +161,176 @@
                 <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
                 <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
                 <button class="produkte"><span>ProduktName1<br><br></span><strong>Preis€</strong></button>
-                <a href="#seite2"><button class="produkte2"><span>Seite 2<br><br></span><strong></strong></button></a>
-            </div>
-            <!-- <span id="alc">enthält Alc</span> -->
-        </section>
-        <section id="seite2">
-            <br>
-            <hr><br><br>Seite 2<br><br>
-            <hr><br>
-            <div class="wrapper">
-                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName1<br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName1<br><br></span><strong>Preis€</strong></button>
-            </div>
-            <div class="wrapper">
-                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName1<br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName1<br><br></span><strong>Preis€</strong></button>
-            </div>
-            <div class="wrapper">
-                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName1<br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName1<br><br></span><strong>Preis€</strong></button>
-            </div>
-            <div class="wrapper">
-                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName1<br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName1<br><br></span><strong>Preis€</strong></button>
-            </div>
-            <div class="wrapper">
-                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName1<br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName1<br><br></span><strong>Preis€</strong></button>
-            </div>
-            <div class="wrapper">
-                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName1<br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName1<br><br></span><strong>Preis€</strong></button>
-            </div>
-            <div class="wrapper">
-                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName1<br><br></span><strong>Preis€</strong></button>
-                <a href="#seite1"><button class="produkte2"><span>Seite 1<br><br></span><strong></strong></button></a>
-            </div>
-
-        </section>
-
-        <section id="burger">
-            <hr>
-            <h2>Burger</h2> <a href="#start">
-                <h2>zur Auswahl</h2>
-            </a>
-            <hr>
-            <div class="wrapper">
-                <button class="produkte"><span>Rabatt <br><br></span><strong>-100€</strong></button>
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-            </div>
-            <div class="wrapper">
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-            </div>
-            <div class="wrapper">
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-            </div>
-            <div class="wrapper">
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-            </div>
-            <div class="wrapper">
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-            </div>
-            <div class="wrapper">
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
+                <a href="#seite2"><button class="produkte2">
+                        Seite 2 <br>⎯⎯⎯⎯<br>
+                        Seite 3<br></button></a>
             </div>
         </section>
 
-        <section id="mcnff">
-            <hr>
-            <h2>McNuggets & Fingerfood</h2> <a href="#start">
-                <h2>zur Auswahl</h2>
-            </a>
-            <hr>
+
+        <section>
+            <br><br><br>
+            <a id="seite2" href="#seite1"><button class="unterpunkte">Seite 1</button></a>
+            <a href="#seite2"><button class="unterpunkte">Seite 2</button></a>
+            <a href="#seite3"><button class="unterpunkte">Seite 3</button></a>
+            <a href="#start"><button class="unterpunkte">Zum Bezahlen</button></a>
+
             <div class="wrapper">
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
+                <button id="seite2" class="produkte"><span>Name<br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName1<br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName1<br><br></span><strong>Preis€</strong></button>
             </div>
             <div class="wrapper">
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName1<br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName1<br><br></span><strong>Preis€</strong></button>
+            </div>
+            <div class="wrapper">
+                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName1<br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName1<br><br></span><strong>Preis€</strong></button>
+            </div>
+            <div class="wrapper">
+                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName1<br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName1<br><br></span><strong>Preis€</strong></button>
+            </div>
+            <div class="wrapper">
+                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName1<br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName1<br><br></span><strong>Preis€</strong></button>
+            </div>
+            <div class="wrapper">
+                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName1<br><br></span><strong>Preis€</strong></button>
+                <a href="#seite1"><button class="produkte2">
+                        Seite 1<br></button></a>
+            </div>
+            <div class="wrapper">
+                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName1<br><br></span><strong>Preis€</strong></button>
+                <a href="#seite3"><button class="produkte2">
+                        Seite 2<br>⎯⎯⎯⎯<br>
+                        Seite 3<br></button></a>
             </div>
 
         </section>
 
-        <section id="vs">
-            <hr>
-            <h2>Vegan, Salads & Co.</h2> <a href="#start">
-                <h2>zur Auswahl</h2>
-            </a>
-            <hr>
-            <div class="wrapper">
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-            </div>
-            <div class="wrapper">
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-            </div>
 
-        </section>
+        <section>
+            <br><br><br>
+            <a id="seite3" href="#seite1"><button class="unterpunkte">Seite 1</button></a>
+            <a href="#seite2"><button class="unterpunkte">Seite 2</button></a>
+            <a href="#seite3"><button class="unterpunkte">Seite 3</button></a>
+            <a href="#start"><button class="unterpunkte">Zum Bezahlen</button></a>
 
-        <section id="happymeal">
-            <hr>
-            <h2>Happy Meal</h2> <a href="#start">
-                <h2>zur Auswahl</h2>
-            </a>
-            <hr>
             <div class="wrapper">
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-            </div>
-
-        </section>
-
-        <section id="be">
-            <hr>
-            <h2>Beilagen & Extras</h2> <a href="#start">
-                <h2>zur Auswahl</h2>
-            </a>
-            <hr>
-            <div class="wrapper">
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>Produkt<br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName1<br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName1<br><br></span><strong>Preis€</strong></button>
             </div>
             <div class="wrapper">
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName1<br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName1<br><br></span><strong>Preis€</strong></button>
             </div>
             <div class="wrapper">
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName1<br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName1<br><br></span><strong>Preis€</strong></button>
             </div>
             <div class="wrapper">
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName1<br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName1<br><br></span><strong>Preis€</strong></button>
             </div>
             <div class="wrapper">
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName1<br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName1<br><br></span><strong>Preis€</strong></button>
             </div>
             <div class="wrapper">
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-            </div>
-        </section>
-
-        <section id="getränke">
-            <hr>
-            <h2>Getränke</h2> <a href="#start">
-                <h2>zur Auswahl</h2>
-            </a>
-            <hr>
-            <div class="wrapper">
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName1<br><br></span><strong>Preis€</strong></button>
+                <a href="#seite1"><button class="produkte2">
+                        Seite 1<br></button></a>
             </div>
             <div class="wrapper">
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-            </div>
-            <div class="wrapper">
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-            </div>
-            <div class="wrapper">
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-            </div>
-            <div class="wrapper">
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-            </div>
-            <div class="wrapper">
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-            </div>
-            <div class="wrapper">
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-            </div>
-            <div class="wrapper">
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-            </div>
-
-        </section>
-
-        <section id="desserts">
-            <hr>
-            <h2>NAME</h2> <a href="#start">
-                <h2>zur Auswahl</h2>
-            </a>
-            <hr>
-            <div class="wrapper">
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-            </div>
-            <div class="wrapper">
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-            </div>
-            <div class="wrapper">
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-            </div>
-            <div class="wrapper">
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-            </div>
-            <div class="wrapper">
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-            </div>
-            <div class="wrapper">
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-            </div>
-            <div class="wrapper">
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-            </div>
-            <div class="wrapper">
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-            </div>
-            <div class="wrapper">
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-            </div>
-            <div class="wrapper">
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-            </div>
-        </section>
-
-        <section id="mccafe">
-            <hr>
-            <h2>NAME</h2> <a href="#start">
-                <h2>zur Auswahl</h2>
-            </a>
-            <hr>
-            <div class="wrapper">
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-            </div>
-            <div class="wrapper">
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-            </div>
-            <div class="wrapper">
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-            </div>
-            <div class="wrapper">
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-            </div>
-            <div class="wrapper">
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-            </div>
-            <div class="wrapper">
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-            </div>
-            <div class="wrapper">
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-            </div>
-            <div class="wrapper">
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-            </div>
-            <div class="wrapper">
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-            </div>
-            <div class="wrapper">
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-            </div>
-            <div class="wrapper">
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
-                <button class="produkte"><span>ProduktName <br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName<br><br></span><strong>Preis€</strong></button>
+                <button class="produkte"><span>ProduktName1<br><br></span><strong>Preis€</strong></button>
+                <a href="#seite2"><button class="produkte2">
+                        Seite 2<br>⎯⎯⎯⎯<br>
+                        Seite 3<br></button></a>
             </div>
 
         </section>
