@@ -1,12 +1,13 @@
 body {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 nav {
     background-color: lightgrey;
     text-align: center;
     padding: 20px;
-    margin: -10px;
+    margin: 10px;
+    border-radius: 12px;
 
 }
 
@@ -20,7 +21,7 @@ nav {
 }
 
 #mail {
-text-align: center;
+    text-align: center;
 }
 
 #star {
@@ -28,7 +29,7 @@ text-align: center;
     max-width: 330px;
     border-radius: 7px;
     padding: 10px;
-    
+
 }
 
 svg {
