@@ -1,80 +1,61 @@
-body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
 nav {
-    background-color: lightgrey;
+    background-color: grey;
     text-align: center;
-    padding: 20px;
-    margin: 10px;
-    border-radius: 12px;
-
-}
-
-#nav {
-    background-color: #a5a5a5;
-    margin: 5px;
-    padding: 10px;
     border-radius: 7px;
-    border: 1px rgb(165, 165, 165) solid;
-
+    padding: 2px;
 }
 
-#mail {
+main {
     text-align: center;
 }
 
-#star {
-    background-color: lightgrey;
-    max-width: 330px;
+footer {
+    text-align: center;
+}
+
+body {
+    background-color: lightgray;
+}
+
+#testparty {
+    background-color: rgb(255, 255, 255);
+    margin-left: 400px;
+    margin-right: 400px;
     border-radius: 7px;
-    padding: 10px;
-
 }
 
-svg {
-    height: 60px;
+.btnanfragen {
+    background-color: #67ec67;
 }
 
-#img {
-    height: 240px;
-
+#btnyourparty {
+    background-color: rgb(179, 179, 179);
+    border-radius: 7px;
 }
 
-#andere {
-    text-decoration: none;
-    background-color: #e2e2e2;
-    color: black;
-    padding: 10px;
-    /* margin: -3px; */
-    border-top-left-radius: 7px;
-    border-top-right-radius: 7px;
+.accepted {
+    background-color: #67ec67;
 }
 
-#andere2 {
-    text-decoration: none;
-    background-color: #646464;
-    color: black;
-    padding: 10px;
-    /* margin: -3px; */
-    border-top-left-radius: 7px;
-    border-top-right-radius: 7px;
+.pending {
+    background-color: #e9c345;
 }
 
-
-
-#aktuell {
-    text-decoration: none;
-    background-color: #a5a5a5;
-    color: black;
-    padding: 10px;
-    /* margin: -3px; */
-    border-top-left-radius: 7px;
-    border-top-right-radius: 7px;
+.btnaccepted {
+    background-color: rgb(144, 205, 206);
 }
 
-.main-pannel {
-    background-color: #a5a5a5;
-    margin-top: 10px;
-    padding: 10px;
+.declined {
+    background-color: red;
+}
+
+.btnchat {
+    background-color: #67ec67;
+}
+
+.createparty {
+    background-color: rgb(255, 255, 255);
+    margin-left: 400px;
+    margin-right: 400px;
+    border-radius: 7px;
 }

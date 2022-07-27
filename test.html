@@ -2,211 +2,26 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        .app {
-            display: grid;
-            height: 100vh;
-            width: 100vw;
-            grid-template-columns: 30fr 70fr;
-        }
-
-        .order {
-            border-right: 1px solid black;
-            padding: 20px;
-        }
-
-        .order-main-list {
-            list-style: none;
-        }
-
-        .order-main-item {
-            font-size: 2em;
-        }
-
-        .order-beilagen-list {
-            list-style: none;
-            margin-left: 20px;
-        }
-
-        .order-beilagen-item {
-            font-size: 0.6em;
-        }
-
-        .order-beilagen-item:not(:last-child) {
-            margin-bottom: 0.5em;
-        }
-
-        .order-list {
-            display: flex;
-            flex-direction: column;
-        }
-
-        .burgers {
-            height: 50%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .burgers-list {
-            list-style: none;
-            display: flex;
-            gap: 1em;
-        }
-
-        .burgers-item,
-        .beilage-item {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 5em;
-            height: 5em;
-            border: 1px solid black;
-            cursor: pointer;
-        }
-
-        .beilagen {
-            max-height: 50%;
-            display: flex;
-            flex-direction: column;
-            gap: 1em;
-            overflow: auto;
-        }
-
-        .beilage {
-            padding: 1em;
-        }
-
-        .beilage-title {
-            font-size: 2em;
-        }
-
-        .beilage-list {
-            display: flex;
-            gap: 1em;
-        }
-
-        .hide {
-            display: none !important;
-        }
-    </style>
 </head>
 
 <body>
-    <div class="app">
-        <div class="order">
-            <ul class="order-main-list">
-            </ul>
-        </div>
-        <div class="menu-list">
-            <div class="burgers">
-                <ul class="burgers-list">
-                    <li class="burgers-item">Burger 1</li>
-                    <li class="burgers-item">Burger 2</li>
-                    <li class="burgers-item">Burger 3</li>
-                    <li class="burgers-item">Burger 4</li>
-                    <li class="burgers-item">Burger 5</li>
-                    <li class="burgers-item">Burger 6</li>
-                    <li class="burgers-item">Burger 7</li>
-                </ul>
-            </div>
-            <div class="beilagen hide">
+    <nav>
 
-            </div>
-        </div>
-    </div>
 
-    <script>
-        const mainOrderUl = document.querySelector('.order-main-list');
-        const beilagenContainer = document.querySelector('.beilagen');
+    </nav>
 
-        let id = 0;
+    <main>
 
-        document.querySelectorAll('.burgers-item').forEach(burger => {
-            burger.addEventListener('click', burgerClickHandler)
-        });
 
-        function removeHide(element) {
-            element.classList.remove('hide');
-        }
 
-        function addHide(element) {
-            element.classList.add('hide');
-        }
-        function createBeilage(productId, arr) {
+    </main>
+    <footer>
 
-            const container = document.createElement('div');
-            container.classList.add('beilage');
-            const h3 = document.createElement('h3');
-            h3.classList.add('beilage-title');
-            h3.textContent = arr[0];
-            arr.splice(0, 1);
-            container.appendChild(h3);
-            const ul = document.createElement('ul');
-            ul.classList.add('beilage-list');
-            container.appendChild(ul);
-            for (let i = 0; i < arr.length; i++) {
-                const li = document.createElement('li');
-                li.classList.add('beilage-item');
-                li.textContent = arr[i];
-                li.dataset.id = productId;
-                li.addEventListener('click', addBeilageToMainProduct)
-                ul.appendChild(li);
-            }
-            container.appendChild(ul);
-            beilagenContainer.appendChild(container);
-        }
-        function addMainProductToOrder(name) {
-            const li = document.createElement('li');
-            li.classList.add('order-main-item');
-            li.textContent = name;
-            li.dataset.id = id;
-            mainOrderUl.appendChild(li);
-            return id++;
-        }
-
-        function addBeilageToMainProduct(event) {
-            const beilage = event.target;
-            let ul;
-            console.log(beilage.dataset.id);
-            const accordingBurgerUl = mainOrderUl.querySelector(`[data-id="${beilage.dataset.id}"]`);
-            console.log(accordingBurgerUl);
-            if (accordingBurgerUl.childElementCount === 0) {
-                ul = document.createElement('ul');
-                ul.classList.add('order-beilagen-list');
-                accordingBurgerUl.appendChild(ul)
-            } else {
-                ul = accordingBurgerUl.querySelector('ul');
-            }
-            const li = document.createElement('li');
-            li.classList.add('order-beilagen-item');
-            li.textContent = beilage.textContent;
-            ul.appendChild(li)
-        }
-        function burgerClickHandler(event) {
-            const burgerElement = event.target;
-            const currentId = addMainProductToOrder(burgerElement.textContent);
-            removeHide(beilagenContainer);
-            beilagenContainer.innerHTML = '';
-            createBeilage(currentId, ['Pommes', 'Klein', 'Mittel', 'Groß']);
-            createBeilage(currentId, ['Getränke', 'Cola', 'Fanta', 'Sprite', 'Almdudler', 'Wasser', 'Soda'])
-        }
-
-        function beilagenClickHandler(event) {
-            const beilageElement = event.target;
-            addExtraProductToOrder()
-        }
-    </script>
+    </footer>
 </body>
 
 </html>
