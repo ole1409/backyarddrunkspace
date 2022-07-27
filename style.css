@@ -19,8 +19,6 @@ body {
 
 #testparty {
     background-color: rgb(255, 255, 255);
-    margin-left: 400px;
-    margin-right: 400px;
     border-radius: 7px;
 }
 
@@ -55,8 +53,6 @@ body {
 
 .createparty {
     background-color: rgb(255, 255, 255);
-    margin-left: 400px;
-    margin-right: 400px;
     border-radius: 7px;
 }
 
