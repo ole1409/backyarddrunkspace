@@ -1,61 +1,16 @@
 nav {
-    background-color: grey;
     text-align: center;
-    border-radius: 7px;
-    padding: 2px;
+}
+
+#untermenü {
+    text-align: center;
+
 }
 
 main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-rows: ; */
     text-align: center;
-}
 
-footer {
-    text-align: center;
-}
-
-body {
-    background-color: lightgray;
-}
-
-#testparty {
-    background-color: rgb(255, 255, 255);
-    border-radius: 7px;
-}
-
-.btnanfragen {
-    background-color: #67ec67;
-}
-
-#btnyourparty {
-    background-color: rgb(179, 179, 179);
-    border-radius: 7px;
-}
-
-.accepted {
-    background-color: #67ec67;
-}
-
-.pending {
-    background-color: #e9c345;
-}
-
-.btnaccepted {
-    background-color: rgb(144, 205, 206);
-}
-
-.declined {
-    background-color: red;
-}
-
-.btnchat {
-    background-color: #67ec67;
-}
-
-.createparty {
-    background-color: rgb(255, 255, 255);
-    border-radius: 7px;
-}
-
-#email {
-    font-size: 34px;
 }
