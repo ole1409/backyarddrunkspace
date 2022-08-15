@@ -1,0 +1,16 @@
+nav {
+    text-align: center;
+}
+
+#untermenü {
+    text-align: center;
+
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-rows: ; */
+    text-align: center;
+
+}
